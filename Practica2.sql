@@ -14,7 +14,7 @@ CREATE TEMPORARY TABLE tmpCountryCodes(
     cowNumeric varchar(3),
     faoCode varchar(3),
     nameTips varchar(2),
-    geonamesId int,
+    geoNamesId int,
     imfCode varchar(3),
     nameIso2 varchar(2),
     nameIso3 varchar(3),
@@ -25,3 +25,10 @@ CREATE TEMPORARY TABLE tmpCountryCodes(
     wbCodeName varchar(3)
 );
 
+LOAD DATA INFILE '/home/luisarana/Escritorio/Archivos/MIA_P2_201700988/ArchivosCSV/country_codes.tsv'
+INTO TABLE tmpCountryCodes
+FIELDS TERMINATED BY ' '
+LINES TERMINATED BY '\n'
+(nameCountry, iso2, nameName, aidDataCode, aidDataName, cowAlpha, cowNumeric,
+faoCode, nameTips, geoNamesId, imfCode, isoNumeric, oecdCode, oecdName,
+unCodeName, wbCodeName);
