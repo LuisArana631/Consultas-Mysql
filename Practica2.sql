@@ -5,30 +5,35 @@ USE dataBanco;
 
 /* Crear tablas temporales para carga masiva */
 CREATE TEMPORARY TABLE tmpCountryCodes(
-	nameCountry nvarchar(100),
-    iso2 varchar(2),
-    nameName nvarchar(100),
-    aidDataCode int,
-    aidDataName nvarchar(100),
-    cowAlpha varchar(3),
-    cowNumeric varchar(3),
-    faoCode varchar(3),
-    nameTips varchar(2),
-    geoNamesId int,
-    imfCode varchar(3),
-    nameIso2 varchar(2),
-    nameIso3 varchar(3),
-    isoNumeric varchar(3),
-    oecdCode varchar(3),
-    oecdName nvarchar(100),
-    unCodeName varchar(3),
-    wbCodeName varchar(3)
+	country_name nvarchar(300),
+    country_iso2 varchar(100),
+    country_name_name nvarchar(100),
+    country_name_aiddata_code varchar(100),
+    country_name_aiddata_name nvarchar(100),
+    country_name_cow_alpha varchar(100),
+    country_name_cow_numeric varchar(100),
+    country_name_fao_code varchar(100),    
+    country_name_fips varchar(100),
+    country_name_geonames_id varchar(100),
+    country_name_imf_code varchar(100),
+    country_name_iso2 varchar(100),
+    country_name_iso3 varchar(100),
+    country_name_iso_numeric varchar(100),
+    country_name_oecd_code varchar(100),
+    country_name_oecd_name nvarchar(100),
+    country_name_un_code varchar(100),
+    country_name_wb_code varchar(100)
 );
 
-LOAD DATA INFILE '/home/luisarana/Escritorio/Archivos/MIA_P2_201700988/ArchivosCSV/country_codes.tsv'
+LOAD DATA INFILE '/home/luisarana/Escritorio/Archivos/Practica2/Practica2_MIA/ArchivosCSV/country_codes.tsv'
+/*LOAD DATA INFILE '/home/luisarana/Escritorio/Archivos/MIA_P2_201700988/ArchivosCSV/country_codes.tsv'*/
 INTO TABLE tmpCountryCodes
-FIELDS TERMINATED BY ' '
+FIELDS TERMINATED BY '\t'
 LINES TERMINATED BY '\n'
-(nameCountry, iso2, nameName, aidDataCode, aidDataName, cowAlpha, cowNumeric,
-faoCode, nameTips, geoNamesId, imfCode, isoNumeric, oecdCode, oecdName,
-unCodeName, wbCodeName);
+IGNORE 1 ROWS;
+
+SELECT * FROM tmpCountryCodes;
+
+CREATE TEMPORARY TABLE tmpGeonames(
+	
+);
