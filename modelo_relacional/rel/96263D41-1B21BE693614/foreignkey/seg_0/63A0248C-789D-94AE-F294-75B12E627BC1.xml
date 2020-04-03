@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="63A0248C-789D-94AE-F294-75B12E627BC1" containerWithKeyObject="3D010785-F5E6-4324-8C17-25984F6D4289" localFKIndex="F51295CC-94A8-6F84-9FFB-9D3AAB59D850" name="project_donors_FK">
+<createdBy>root</createdBy>
+<createdTime>2020-04-03 15:41:02 UTC</createdTime>
+<ownerDesignName>modelo_relacional</ownerDesignName>
+<referredTableLongName>donors</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>C05F2346-4AF8-1D78-4F07-344364C7DE15</referredTableID>
+<keyObject>FCD3885B-CE88-2406-0AEB-42197B767605</keyObject>
+<referredKeyID>FCD3885B-CE88-2406-0AEB-42197B767605</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_donors</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

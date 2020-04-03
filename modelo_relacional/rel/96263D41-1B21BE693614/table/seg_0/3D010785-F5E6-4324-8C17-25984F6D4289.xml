@@ -1,0 +1,245 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="3D010785-F5E6-4324-8C17-25984F6D4289" name="project">
+<createdBy>root</createdBy>
+<createdTime>2020-04-03 14:55:42 UTC</createdTime>
+<ownerDesignName>modelo_relacional</ownerDesignName>
+<ordsAlias>table_5</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_project" id="05409DC0-FED3-502A-DFFE-B5EC8EF65D9F">
+<createdBy>root</createdBy>
+<createdTime>2020-04-03 15:01:19 UTC</createdTime>
+<ownerDesignName>modelo_relacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="id_code_project" id="EC2316D9-A19E-5448-1659-2143B5658050">
+<createdBy>root</createdBy>
+<createdTime>2020-04-03 15:01:19 UTC</createdTime>
+<ownerDesignName>modelo_relacional</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="id_geocoded_project" id="2A98AE91-9A85-B65D-42F3-851E90016B2A">
+<createdBy>root</createdBy>
+<createdTime>2020-04-03 15:06:10 UTC</createdTime>
+<ownerDesignName>modelo_relacional</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="title_project" id="5D2FAC31-A68D-1CE2-F390-6570F95E59C3">
+<createdBy>root</createdBy>
+<createdTime>2020-04-03 15:06:10 UTC</createdTime>
+<ownerDesignName>modelo_relacional</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="start_actual_isodate_project" id="CDB7FE19-383D-1E8F-B989-1FAB61FCDB5D">
+<createdBy>root</createdBy>
+<createdTime>2020-04-03 15:06:10 UTC</createdTime>
+<ownerDesignName>modelo_relacional</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="end_actual_isodate_project" id="FBB53614-E404-C540-7C55-3BBEFE999D09">
+<createdBy>root</createdBy>
+<createdTime>2020-04-03 15:07:48 UTC</createdTime>
+<ownerDesignName>modelo_relacional</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="total_commitments_project" id="3FD8F287-0F0E-BCAF-1455-06575AF7DC07">
+<createdBy>root</createdBy>
+<createdTime>2020-04-03 15:20:06 UTC</createdTime>
+<ownerDesignName>modelo_relacional</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="total_disbursments_project" id="9A89C538-98BE-C6A3-2D21-8218C191DF96">
+<createdBy>root</createdBy>
+<createdTime>2020-04-03 15:20:06 UTC</createdTime>
+<ownerDesignName>modelo_relacional</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="status_project" id="8AE23398-7868-6CE3-5909-B1FC0EC6B1E6">
+<createdBy>root</createdBy>
+<createdTime>2020-04-03 15:26:17 UTC</createdTime>
+<ownerDesignName>modelo_relacional</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="transaction_start_year_project" id="C3CAEE01-8C03-4B2F-2970-C7836FA4F2F8">
+<createdBy>root</createdBy>
+<createdTime>2020-04-03 15:27:44 UTC</createdTime>
+<ownerDesignName>modelo_relacional</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="transaction_end_year_project" id="7114A241-E645-A27A-1B84-2030DBD46DA2">
+<createdBy>root</createdBy>
+<createdTime>2020-04-03 15:27:44 UTC</createdTime>
+<ownerDesignName>modelo_relacional</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="type_status_id_type_status" id="C6BA2297-28D2-476E-43F0-9B4F78924BD6">
+<createdBy>root</createdBy>
+<createdTime>2020-04-03 15:31:12 UTC</createdTime>
+<ownerDesignName>modelo_relacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A257409E-2915-F6BA-E4A9-BDBDFF7A3CE0" referredColumn="3F665E54-B0A4-2A76-0F5F-2F2441B50F6D"/>
+</associations>
+</Column>
+<Column name="country_id_country" id="3180FDCD-67F5-8887-F5E7-A1F01ABACAFA">
+<createdBy>root</createdBy>
+<createdTime>2020-04-03 15:36:05 UTC</createdTime>
+<ownerDesignName>modelo_relacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="89C3C130-E94C-0814-ED62-726736C5BDE1" referredColumn="891788D7-E5F1-9898-A6C2-51DDDF61AEFD"/>
+</associations>
+</Column>
+<Column name="donors_id_donors" id="EA93871C-7FB2-C076-71E6-E5404F77F9AF">
+<createdBy>root</createdBy>
+<createdTime>2020-04-03 15:41:02 UTC</createdTime>
+<ownerDesignName>modelo_relacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="63A0248C-789D-94AE-F294-75B12E627BC1" referredColumn="8B1596CF-58B4-85D6-72B2-5450833EA7DC"/>
+</associations>
+</Column>
+<Column name="ad_sector_codes_project" id="C21B53EE-4543-AA15-32A0-B6C722F47710">
+<createdBy>root</createdBy>
+<createdTime>2020-04-03 15:45:56 UTC</createdTime>
+<ownerDesignName>modelo_relacional</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ad_sector_names_project" id="90A8D5E6-651C-6670-376D-E3DFD87C78CA">
+<createdBy>root</createdBy>
+<createdTime>2020-04-03 15:46:54 UTC</createdTime>
+<ownerDesignName>modelo_relacional</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="5FCFBE33-A8DE-4FA2-B95B-19A48523BF68" name="project_PK">
+<createdBy>root</createdBy>
+<createdTime>2020-04-03 15:03:03 UTC</createdTime>
+<ownerDesignName>modelo_relacional</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="05409DC0-FED3-502A-DFFE-B5EC8EF65D9F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="ACFF6ADA-B5F1-1571-F59C-2E7BF13A2F09" name="project_type_status_FK">
+<createdBy>root</createdBy>
+<createdTime>2020-04-03 15:31:12 UTC</createdTime>
+<ownerDesignName>modelo_relacional</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C6BA2297-28D2-476E-43F0-9B4F78924BD6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7A51224E-BD3D-3139-6C35-2E9CF8514A6F" name="project_country_FK">
+<createdBy>root</createdBy>
+<createdTime>2020-04-03 15:36:05 UTC</createdTime>
+<ownerDesignName>modelo_relacional</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3180FDCD-67F5-8887-F5E7-A1F01ABACAFA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F51295CC-94A8-6F84-9FFB-9D3AAB59D850" name="project_donors_FK">
+<createdBy>root</createdBy>
+<createdTime>2020-04-03 15:41:02 UTC</createdTime>
+<ownerDesignName>modelo_relacional</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EA93871C-7FB2-C076-71E6-E5404F77F9AF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,26 +1,30 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="454C2835-BD19-00FA-4B7E-94D302B5D6C9" name="transaction">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="EC79B632-5BC2-47BE-D217-C6F389E118B2" name="level_1a">
 <createdBy>root</createdBy>
-<createdTime>2020-04-03 06:00:08 UTC</createdTime>
+<createdTime>2020-04-03 16:15:50 UTC</createdTime>
 <ownerDesignName>modelo_relacional</ownerDesignName>
-<ordsAlias>table_5</ordsAlias>
+<ordsAlias>table_11</ordsAlias>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="id_transaction" id="67416CB6-DE5F-69E1-84AF-41F7449F1587">
+<Column name="project_id_project" id="FB0D7A07-C089-0A21-5D3A-FFA0134D1904">
 <createdBy>root</createdBy>
-<createdTime>2020-04-03 06:01:20 UTC</createdTime>
+<createdTime>2020-04-03 16:17:32 UTC</createdTime>
 <ownerDesignName>modelo_relacional</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2F2CE754-0B56-2A50-AA0E-0D8169F7B617" referredColumn="05409DC0-FED3-502A-DFFE-B5EC8EF65D9F"/>
+</associations>
 </Column>
-<Column name="id_name_transaction" id="1517D17D-A3EE-0156-0F68-6211362A1EBD">
+<Column name="project_location_id_level_1a" id="5546FD16-B22D-5497-9293-6C5365FEF430">
 <createdBy>root</createdBy>
-<createdTime>2020-04-03 06:01:47 UTC</createdTime>
+<createdTime>2020-04-03 16:19:46 UTC</createdTime>
 <ownerDesignName>modelo_relacional</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -30,9 +34,9 @@
 <ownDataTypeParameters>100,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="project_id_project" id="0A30056F-3DDE-7C7E-175E-8F8675FD3163">
+<Column name="geoname_id_geoname" id="8BAA2DC2-27C6-B480-1C3D-9C1C7E4F4A98">
 <createdBy>root</createdBy>
-<createdTime>2020-04-03 16:08:46 UTC</createdTime>
+<createdTime>2020-04-03 16:21:56 UTC</createdTime>
 <ownerDesignName>modelo_relacional</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -41,23 +45,12 @@
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="F14107A0-67C2-5428-DB10-16F07D544C68" referredColumn="05409DC0-FED3-502A-DFFE-B5EC8EF65D9F"/>
+<colAssociation fkAssociation="FECE43CC-B41F-FBB0-B49C-5F8FB440C6F6" referredColumn="832F25BE-9947-F374-1B8C-D0C70B5B4E1D"/>
 </associations>
 </Column>
-<Column name="iso_date_transaction" id="77C9E1BA-57BF-3B6D-0B71-10CB8303EBA1">
+<Column name="transactions_start_year" id="0642ED1C-8739-8C83-5BF4-13C50882E442">
 <createdBy>root</createdBy>
-<createdTime>2020-04-03 16:11:15 UTC</createdTime>
-<ownerDesignName>modelo_relacional</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT007</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
-</Column>
-<Column name="year_transaction" id="DC02730C-6C02-273A-D194-F65EC9727496">
-<createdBy>root</createdBy>
-<createdTime>2020-04-03 16:11:38 UTC</createdTime>
+<createdTime>2020-04-03 16:24:16 UTC</createdTime>
 <ownerDesignName>modelo_relacional</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -66,33 +59,31 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="value_code_transaction" id="8AD3CDFB-E57A-3282-5750-03E335E7FBBD">
+<Column name="transactions_end_year" id="56E137E0-DC07-25C8-CD87-F5916D583C2A">
 <createdBy>root</createdBy>
-<createdTime>2020-04-03 16:12:34 UTC</createdTime>
+<createdTime>2020-04-03 16:24:16 UTC</createdTime>
 <ownerDesignName>modelo_relacional</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT037</logicalDatatype>
-<dataTypeSize>10</dataTypeSize>
-<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="currency_transaction" id="8EED0669-7A82-FD6C-74AF-F55E574D86B8">
+<Column name="even_split_commitments" id="868D3760-AEBD-35B4-AEC5-724D55E109D4">
 <createdBy>root</createdBy>
-<createdTime>2020-04-03 16:14:40 UTC</createdTime>
+<createdTime>2020-04-03 16:24:16 UTC</createdTime>
 <ownerDesignName>modelo_relacional</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT037</logicalDatatype>
-<dataTypeSize>10</dataTypeSize>
-<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="value_transaction" id="0141565B-DF71-A6AA-4016-AB5A7AD5B1F6">
+<Column name="even_split_disbursements" id="3E672125-2BD0-BA22-FC95-8FAE893F33BB">
 <createdBy>root</createdBy>
-<createdTime>2020-04-03 16:14:59 UTC</createdTime>
+<createdTime>2020-04-03 16:24:16 UTC</createdTime>
 <ownerDesignName>modelo_relacional</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -103,25 +94,24 @@
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="EF961A48-6899-969D-A20C-30166B0389B8" name="transaction_PK">
+<ind_PK_UK id="E617EF44-3358-D627-34E3-9389FF37996D" name="level_1a_project_FK">
 <createdBy>root</createdBy>
-<createdTime>2020-04-03 06:01:59 UTC</createdTime>
-<ownerDesignName>modelo_relacional</ownerDesignName>
-<pk>true</pk>
-<indexState>Primary Constraint</indexState>
-<isSurrogateKey>false</isSurrogateKey>
-<indexColumnUsage>
-<colUsage columnID="67416CB6-DE5F-69E1-84AF-41F7449F1587"/>
-</indexColumnUsage>
-</ind_PK_UK>
-<ind_PK_UK id="30CEA304-4628-48AF-92FB-5BA3358A0333" name="transaction_project_FK">
-<createdBy>root</createdBy>
-<createdTime>2020-04-03 16:08:46 UTC</createdTime>
+<createdTime>2020-04-03 16:17:32 UTC</createdTime>
 <ownerDesignName>modelo_relacional</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="0A30056F-3DDE-7C7E-175E-8F8675FD3163"/>
+<colUsage columnID="FB0D7A07-C089-0A21-5D3A-FFA0134D1904"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6F338507-5DC0-473C-B96B-E7CC7E61C0A9" name="level_1a_geoname_FK">
+<createdBy>root</createdBy>
+<createdTime>2020-04-03 16:21:56 UTC</createdTime>
+<ownerDesignName>modelo_relacional</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8BAA2DC2-27C6-B480-1C3D-9C1C7E4F4A98"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>
