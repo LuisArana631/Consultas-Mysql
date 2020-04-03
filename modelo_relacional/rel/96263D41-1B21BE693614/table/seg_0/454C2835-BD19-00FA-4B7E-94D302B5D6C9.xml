@@ -101,6 +101,20 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
+<Column name="currency_id_currency" id="42B59BC1-D6C8-605E-F4EC-BA94DC58EB30">
+<createdBy>root</createdBy>
+<createdTime>2020-04-03 17:07:55 UTC</createdTime>
+<ownerDesignName>modelo_relacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2CE86049-CF62-0770-E4E0-8A24E0B62252" referredColumn="98141D0D-F130-DF08-3D54-AF5AF429BF0D"/>
+</associations>
+</Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
 <ind_PK_UK id="EF961A48-6899-969D-A20C-30166B0389B8" name="transaction_PK">
@@ -122,6 +136,16 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="0A30056F-3DDE-7C7E-175E-8F8675FD3163"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7B767587-CC35-BD31-F13B-B6737DE7A654" name="transaction_currency_FK">
+<createdBy>root</createdBy>
+<createdTime>2020-04-03 17:07:55 UTC</createdTime>
+<ownerDesignName>modelo_relacional</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="42B59BC1-D6C8-605E-F4EC-BA94DC58EB30"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

@@ -1,0 +1,46 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B7278DEA-BF53-A83A-3599-59537F18E27D" name="currency">
+<createdBy>root</createdBy>
+<createdTime>2020-04-03 17:06:36 UTC</createdTime>
+<ownerDesignName>modelo_relacional</ownerDesignName>
+<ordsAlias>table_9</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_currency" id="98141D0D-F130-DF08-3D54-AF5AF429BF0D">
+<createdBy>root</createdBy>
+<createdTime>2020-04-03 17:07:42 UTC</createdTime>
+<ownerDesignName>modelo_relacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="description_currency" id="89755F5E-01CB-66C0-5AAD-9A0DA2C28E2E">
+<createdBy>root</createdBy>
+<createdTime>2020-04-03 17:07:42 UTC</createdTime>
+<ownerDesignName>modelo_relacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="09CC6029-40ED-055D-38FE-AC1677EBAA86" name="currency_PK">
+<createdBy>root</createdBy>
+<createdTime>2020-04-03 17:07:42 UTC</createdTime>
+<ownerDesignName>modelo_relacional</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="98141D0D-F130-DF08-3D54-AF5AF429BF0D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
