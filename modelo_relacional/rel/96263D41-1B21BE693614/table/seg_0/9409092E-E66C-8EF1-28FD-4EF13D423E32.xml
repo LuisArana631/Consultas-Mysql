@@ -1,0 +1,209 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="9409092E-E66C-8EF1-28FD-4EF13D423E32" name="country">
+<createdBy>root</createdBy>
+<createdTime>2020-04-03 02:27:31 UTC</createdTime>
+<ownerDesignName>modelo_relacional</ownerDesignName>
+<ordsAlias>table_1</ordsAlias>
+<abbreviation>ctr</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_country" id="891788D7-E5F1-9898-A6C2-51DDDF61AEFD">
+<createdBy>root</createdBy>
+<createdTime>2020-04-03 03:15:54 UTC</createdTime>
+<ownerDesignName>modelo_relacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="name_country" id="C4009DCB-F92B-488F-3602-66A3759ED73A">
+<createdBy>root</createdBy>
+<createdTime>2020-04-03 03:15:54 UTC</createdTime>
+<ownerDesignName>modelo_relacional</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="iso2_country" id="9C2155EF-BE5A-CEA1-BF11-5B30F805B892">
+<createdBy>root</createdBy>
+<createdTime>2020-04-03 03:20:35 UTC</createdTime>
+<ownerDesignName>modelo_relacional</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="aiddata_code_country" id="2405357B-90C8-38C9-E96D-D79E2607DBAB">
+<createdBy>root</createdBy>
+<createdTime>2020-04-03 03:23:11 UTC</createdTime>
+<ownerDesignName>modelo_relacional</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="aiddata_name_country" id="6DEC4BF1-967F-150B-4854-60E28EC6AE8B">
+<createdBy>root</createdBy>
+<createdTime>2020-04-03 03:26:50 UTC</createdTime>
+<ownerDesignName>modelo_relacional</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cow_alpha_country" id="A7182217-8B96-8E47-8E21-CDD1823E6ADE">
+<createdBy>root</createdBy>
+<createdTime>2020-04-03 03:27:53 UTC</createdTime>
+<ownerDesignName>modelo_relacional</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cow_numeric_country" id="31746DC1-3347-46ED-10DF-A04319A2547F">
+<createdBy>root</createdBy>
+<createdTime>2020-04-03 03:28:24 UTC</createdTime>
+<ownerDesignName>modelo_relacional</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fao_code_country" id="9F0ACF08-06D7-B8D0-077D-BFC4C66DB266">
+<createdBy>root</createdBy>
+<createdTime>2020-04-03 03:29:12 UTC</createdTime>
+<ownerDesignName>modelo_relacional</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fips_country" id="FDEDA613-DDDD-8621-086C-FD77678D36A2">
+<createdBy>root</createdBy>
+<createdTime>2020-04-03 03:29:37 UTC</createdTime>
+<ownerDesignName>modelo_relacional</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="geonames_id_country" id="9272B9A6-BC4F-78D2-6BD5-F4C5B984117F">
+<createdBy>root</createdBy>
+<createdTime>2020-04-03 03:40:24 UTC</createdTime>
+<ownerDesignName>modelo_relacional</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="imf_code_country" id="F1CAA9E6-7864-4996-6D11-343CD1C4EE8B">
+<createdBy>root</createdBy>
+<createdTime>2020-04-03 03:41:22 UTC</createdTime>
+<ownerDesignName>modelo_relacional</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="iso3_country" id="E9BA01CE-EDB5-4C6F-11A5-A69600E6960E">
+<createdBy>root</createdBy>
+<createdTime>2020-04-03 03:42:01 UTC</createdTime>
+<ownerDesignName>modelo_relacional</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="iso_numeric_country" id="0FF07F6B-199A-4F3E-50D4-4F69176A0334">
+<createdBy>root</createdBy>
+<createdTime>2020-04-03 03:44:12 UTC</createdTime>
+<ownerDesignName>modelo_relacional</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="oecd_code_country" id="EF5ED06B-F595-512C-8E6B-E2ECE58C86B3">
+<createdBy>root</createdBy>
+<createdTime>2020-04-03 03:44:59 UTC</createdTime>
+<ownerDesignName>modelo_relacional</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="un_code_country" id="9891B33D-F53B-3ECB-26C3-66A85040FF65">
+<createdBy>root</createdBy>
+<createdTime>2020-04-03 03:48:27 UTC</createdTime>
+<ownerDesignName>modelo_relacional</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="wb_code_country" id="5A670552-B20D-1C1A-11E7-98BF3ABBA971">
+<createdBy>root</createdBy>
+<createdTime>2020-04-03 03:49:02 UTC</createdTime>
+<ownerDesignName>modelo_relacional</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="9E8EF474-E4CE-482B-341A-2885ECAF5AFF" name="country_PK">
+<createdBy>root</createdBy>
+<createdTime>2020-04-03 03:15:54 UTC</createdTime>
+<ownerDesignName>modelo_relacional</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="891788D7-E5F1-9898-A6C2-51DDDF61AEFD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
