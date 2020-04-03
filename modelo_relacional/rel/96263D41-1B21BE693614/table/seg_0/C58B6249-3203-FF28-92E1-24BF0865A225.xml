@@ -1,0 +1,139 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C58B6249-3203-FF28-92E1-24BF0865A225" name="geoname">
+<createdBy>root</createdBy>
+<createdTime>2020-04-03 05:25:00 UTC</createdTime>
+<ownerDesignName>modelo_relacional</ownerDesignName>
+<ordsAlias>table_4</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_geoname" id="832F25BE-9947-F374-1B8C-D0C70B5B4E1D">
+<createdBy>root</createdBy>
+<createdTime>2020-04-03 05:30:48 UTC</createdTime>
+<ownerDesignName>modelo_relacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="name_geoname" id="0431C9D5-8BC5-2319-940F-03E540303E34">
+<createdBy>root</createdBy>
+<createdTime>2020-04-03 05:31:21 UTC</createdTime>
+<ownerDesignName>modelo_relacional</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="latitude_geoname" id="A4D38ED5-B49E-FED6-1945-CEF634D327C0">
+<createdBy>root</createdBy>
+<createdTime>2020-04-03 05:32:31 UTC</createdTime>
+<ownerDesignName>modelo_relacional</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="longitud_geoname" id="237E0D46-8C03-67A4-5DC7-43D7A3A6812F">
+<createdBy>root</createdBy>
+<createdTime>2020-04-03 05:32:31 UTC</createdTime>
+<ownerDesignName>modelo_relacional</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="location_id_location" id="D10206F9-B9FE-ACCA-DB08-099669205F66">
+<createdBy>root</createdBy>
+<createdTime>2020-04-03 05:41:19 UTC</createdTime>
+<ownerDesignName>modelo_relacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7694DD0D-25C5-C686-FC76-1F5566C80516" referredColumn="BA04DA65-A4AC-6206-5F7A-12E9EABC5185"/>
+</associations>
+</Column>
+<Column name="gazetteer_adm_code_geoname" id="CC20C48D-1243-78C3-18AD-0ED4887AC546">
+<createdBy>root</createdBy>
+<createdTime>2020-04-03 05:45:42 UTC</createdTime>
+<ownerDesignName>modelo_relacional</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="gazetteer_adm_name_geoname" id="8DF28792-F2C5-B6F1-6C7D-5D42B11924BA">
+<createdBy>root</createdBy>
+<createdTime>2020-04-03 05:45:42 UTC</createdTime>
+<ownerDesignName>modelo_relacional</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="location_class_geoname" id="D102D5A3-9E1E-C46C-E760-62F202C11E62">
+<createdBy>root</createdBy>
+<createdTime>2020-04-03 05:46:32 UTC</createdTime>
+<ownerDesignName>modelo_relacional</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="geographic_exactness_geoname" id="9ADE0132-799B-D183-E9BA-8C9015468091">
+<createdBy>root</createdBy>
+<createdTime>2020-04-03 05:47:06 UTC</createdTime>
+<ownerDesignName>modelo_relacional</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="76A35993-1C74-1DE4-90FE-13FD451E8061" name="geoname_PK">
+<createdBy>root</createdBy>
+<createdTime>2020-04-03 05:31:21 UTC</createdTime>
+<ownerDesignName>modelo_relacional</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="832F25BE-9947-F374-1B8C-D0C70B5B4E1D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="EF29E97D-E476-6C60-CAB3-9742663A5DA8" name="geoname_location_FK">
+<createdBy>root</createdBy>
+<createdTime>2020-04-03 05:41:19 UTC</createdTime>
+<ownerDesignName>modelo_relacional</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D10206F9-B9FE-ACCA-DB08-099669205F66"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

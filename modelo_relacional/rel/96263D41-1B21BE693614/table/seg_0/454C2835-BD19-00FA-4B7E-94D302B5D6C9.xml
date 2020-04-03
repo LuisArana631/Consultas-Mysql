@@ -1,39 +1,26 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="95A89D1E-2047-BE0E-614C-F00A0528D427" name="location">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="454C2835-BD19-00FA-4B7E-94D302B5D6C9" name="transaction">
 <createdBy>root</createdBy>
-<createdTime>2020-04-03 03:54:51 UTC</createdTime>
+<createdTime>2020-04-03 06:00:08 UTC</createdTime>
 <ownerDesignName>modelo_relacional</ownerDesignName>
-<ordsAlias>table_4</ordsAlias>
+<ordsAlias>table_5</ordsAlias>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="id_location" id="BA04DA65-A4AC-6206-5F7A-12E9EABC5185">
+<Column name="id_transaction" id="67416CB6-DE5F-69E1-84AF-41F7449F1587">
 <createdBy>root</createdBy>
-<createdTime>2020-04-03 03:58:07 UTC</createdTime>
+<createdTime>2020-04-03 06:01:20 UTC</createdTime>
 <ownerDesignName>modelo_relacional</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
-<autoIncrementColumn>true</autoIncrementColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="type_code_location" id="B249DA29-457B-533A-A948-FA8D5111A6A1">
+<Column name="id_name_transaction" id="1517D17D-A3EE-0156-0F68-6211362A1EBD">
 <createdBy>root</createdBy>
-<createdTime>2020-04-03 03:58:07 UTC</createdTime>
-<ownerDesignName>modelo_relacional</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT037</logicalDatatype>
-<dataTypeSize>15</dataTypeSize>
-<ownDataTypeParameters>15,,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
-</Column>
-<Column name="type_name_country" id="3EAEEFBC-9214-0D20-345A-B9D3A22325F7">
-<createdBy>root</createdBy>
-<createdTime>2020-04-03 04:01:14 UTC</createdTime>
+<createdTime>2020-04-03 06:01:47 UTC</createdTime>
 <ownerDesignName>modelo_relacional</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -45,15 +32,15 @@
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="387BDC16-96A8-6E21-A1B2-F7D85767F632" name="location_PK">
+<ind_PK_UK id="EF961A48-6899-969D-A20C-30166B0389B8" name="transaction_PK">
 <createdBy>root</createdBy>
-<createdTime>2020-04-03 03:58:07 UTC</createdTime>
+<createdTime>2020-04-03 06:01:59 UTC</createdTime>
 <ownerDesignName>modelo_relacional</ownerDesignName>
 <pk>true</pk>
 <indexState>Primary Constraint</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="BA04DA65-A4AC-6206-5F7A-12E9EABC5185"/>
+<colUsage columnID="67416CB6-DE5F-69E1-84AF-41F7449F1587"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>
