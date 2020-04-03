@@ -25,8 +25,7 @@ CREATE TEMPORARY TABLE tmpCountryCodes(
     country_name_wb_code varchar(100)
 );
 
-LOAD DATA INFILE '/home/luisarana/Escritorio/Archivos/Practica2/Practica2_MIA/ArchivosCSV/country_codes.tsv'
-/*LOAD DATA INFILE '/home/luisarana/Escritorio/Archivos/MIA_P2_201700988/ArchivosCSV/country_codes.tsv'*/
+LOAD DATA INFILE '/home/luisarana/Escritorio/Archivos/MIA_P2_201700988/ArchivosCSV/country_codes.tsv'
 INTO TABLE tmpCountryCodes
 FIELDS TERMINATED BY '\t' ENCLOSED BY '"'
 LINES TERMINATED BY '\n'
@@ -48,8 +47,7 @@ CREATE TEMPORARY TABLE tmpGeonames(
     geoname_geographic_exactness nvarchar(100) 
 );
 
-LOAD DATA INFILE '/home/luisarana/Escritorio/Archivos/Practica2/Practica2_MIA/ArchivosCSV/geonames.csv'
-/*LOAD DATA INFILE '/home/luisarana/Escritorio/Archivos/MIA_P2_201700988/ArchivosCSV/geonames.csv'*/
+LOAD DATA INFILE '/home/luisarana/Escritorio/Archivos/MIA_P2_201700988/ArchivosCSV/geonames.csv'
 INTO TABLE tmpGeonames
 FIELDS TERMINATED BY ',' ENCLOSED BY '"'
 LINES TERMINATED BY '\n'
@@ -68,8 +66,7 @@ CREATE TEMPORARY TABLE tmpLevel1a(
     level_even_split_disbursements nvarchar(100)
 );
 
-LOAD DATA INFILE '/home/luisarana/Escritorio/Archivos/Practica2/Practica2_MIA/ArchivosCSV/level_1a.csv'
-/*LOAD DATA INFILE '/home/luisarana/Escritorio/Archivos/MIA_P2_201700988/ArchivosCSV/level_1a.csv'*/
+LOAD DATA INFILE '/home/luisarana/Escritorio/Archivos/MIA_P2_201700988/ArchivosCSV/level_1a.csv'
 INTO TABLE tmpLevel1a
 FIELDS TERMINATED BY ',' ENCLOSED BY '"'
 LINES TERMINATED BY '\n'
@@ -83,8 +80,7 @@ CREATE TEMPORARY TABLE tmpLocation(
     location_type_name nvarchar(100)    
 );
 
-LOAD DATA INFILE '/home/luisarana/Escritorio/Archivos/Practica2/Practica2_MIA/ArchivosCSV/locations.csv'
-/*LOAD DATA INFILE '/home/luisarana/Escritorio/Archivos/MIA_P2_201700988/ArchivosCSV/locations.csv'*/
+LOAD DATA INFILE '/home/luisarana/Escritorio/Archivos/MIA_P2_201700988/ArchivosCSV/locations.csv'
 INTO TABLE tmpLocation
 FIELDS TERMINATED BY '\t' ENCLOSED BY '"'
 LINES TERMINATED BY '\n'
@@ -112,8 +108,7 @@ CREATE TEMPORARY TABLE tmpProject(
     project_total_disbursements nvarchar(100)
 );
 
-LOAD DATA INFILE '/home/luisarana/Escritorio/Archivos/Practica2/Practica2_MIA/ArchivosCSV/projects.csv'
-/*LOAD DATA INFILE '/home/luisarana/Escritorio/Archivos/MIA_P2_201700988/ArchivosCSV/projects.csv'*/
+LOAD DATA INFILE '/home/luisarana/Escritorio/Archivos/MIA_P2_201700988/ArchivosCSV/projects.csv'
 INTO TABLE tmpProject
 FIELDS TERMINATED BY ',' ENCLOSED BY '"'
 LINES TERMINATED BY '\n'
@@ -132,8 +127,7 @@ CREATE TEMPORARY TABLE tmpTransaction(
     transaction_value nvarchar(100)
 );
 
-LOAD DATA INFILE '/home/luisarana/Escritorio/Archivos/Practica2/Practica2_MIA/ArchivosCSV/transactions.csv'
-/*LOAD DATA INFILE '/home/luisarana/Escritorio/Archivos/MIA_P2_201700988/ArchivosCSV/transactions.csv'*/
+LOAD DATA INFILE '/home/luisarana/Escritorio/Archivos/MIA_P2_201700988/ArchivosCSV/transactions.csv'
 INTO TABLE tmpTransaction
 FIELDS TERMINATED BY ',' ENCLOSED BY '"'
 LINES TERMINATED BY '\n'
@@ -142,5 +136,5 @@ IGNORE 1 ROWS;
 /*SELECT * FROM tmpTransaction*/
 SELECT COUNT(*) FROM tmpTransaction;
 
-/*Crear tablas*/
+
 
