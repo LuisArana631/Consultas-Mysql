@@ -3,7 +3,7 @@ USE dataBanco;
 /*Crear tablas*/
 CREATE TABLE currency(
 	id_currency integer auto_increment,
-    description_currency integer,
+    description_currency nvarchar(50),
     PRIMARY KEY (id_currency)
 );
 
@@ -42,7 +42,7 @@ CREATE TABLE location(
 );
 
 CREATE TABLE type_status(
-	id_type_status integer,
+	id_type_status integer auto_increment,
     detalle_type_status nvarchar(50),
     PRIMARY KEY (id_type_status)
 );
