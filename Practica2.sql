@@ -26,7 +26,7 @@ CREATE TEMPORARY TABLE tmpCountryCodes(
 );
 
 LOAD DATA INFILE '/home/luisarana/Escritorio/Archivos/MIA_P2_201700988/ArchivosCSV/country_codes.tsv'
-INTO TABLE tmpCountryCodes
+IGNORE INTO TABLE tmpCountryCodes
 FIELDS TERMINATED BY '\t' ENCLOSED BY '"'
 LINES TERMINATED BY '\n'
 IGNORE 1 ROWS;
@@ -114,7 +114,7 @@ FIELDS TERMINATED BY ',' ENCLOSED BY '"'
 LINES TERMINATED BY '\n'
 IGNORE 1 ROWS;
 
-/*SELECT * FROM tmpProject*/
+/*SELECT * FROM tmpProject;*/
 SELECT COUNT(*) FROM tmpProject;
 
 CREATE TEMPORARY TABLE tmpTransaction(
